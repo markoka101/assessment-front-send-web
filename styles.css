@@ -33,11 +33,40 @@ input {
 	display: block;
 }
 
+img {
+	max-width: 300px;
+}
+
+
 input[type="checkbox"] {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-img {
-	max-width: 300px;
+.subH {
+	font-size: 145%;
+	text-decoration: underline;
+	text-decoration-thickness: 12%;
+	margin-bottom: 1%;
+}
+
+.career {
+	margin-left: 5%;
+	margin-top: 1%;
+	font-size: 110%;
+}
+
+.pList {
+	margin-top: 1%;
+	margin-left: 1%;
+	font-size: 110%;
+}
+
+.bChange {
+	background-color: rgb(204, 240, 0);
+	font-size: 120%;
+}
+
+.bChange:hover {
+	background-color: rgb(146, 170, 11);
 }

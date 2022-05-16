@@ -1,10 +1,6 @@
-console.log("hello world");
-
-
-
+//alert user when submit button is pressed
 function handleSubmit(evt) {
-	evt.preventDefault();
-	
+	evt.preventDefault();	
 	alert('The form has been submitted successfully');
 }
 
@@ -13,8 +9,9 @@ let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-const polite = () => alert('You look as polite as him');
-
 let compliment = document.querySelector('img#polite');
 
-compliment.addEventListener('mouseover', polite);
+//alert user when the mouse hovers over the image
+compliment.addEventListener('mouseover', polite => {
+	alert('You look as polite as him');
+});
